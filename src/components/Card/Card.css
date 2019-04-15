@@ -1,0 +1,36 @@
+.container-card{    
+    width: 40%;    
+    margin: 20px;
+
+    background-color: #eee;
+    color: #666;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-user-icon{
+    padding: 10px;
+}
+
+.user-icon img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container-user-data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.user-data{
+    padding: 10px;
+}
+
+.large{
+    font-size: 22px;
+}
